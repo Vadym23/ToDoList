@@ -1,14 +1,5 @@
 'use strict';
 
-let greeter = (name, partOfTheDay) => {
-  let hi = `${partOfTheDay}, ${name}!`;
-  return hi;
-}
-let morning = greeter('John', 'Good morning');
-let evening = greeter('Mike', 'Good evening');
-console.log(morning);
-console.log(evening);
-
 let addButton = document.getElementById('add');
 let inputTask = document.getElementById('new-task');
 let unfinishedTasks = document.getElementById('unfinished-tasks');
